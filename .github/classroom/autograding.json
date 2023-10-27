@@ -41,11 +41,11 @@
       "points": null
     },
     {
-      "name": "titled StarChased",
+      "name": "titled StarChaser",
       "setup": "sudo apt-get install libxml2-utils",
       "run": "xmllint --html --xpath \"//title/text()\" index.html",
       "input": "",
-      "output": "",
+      "output": "StarChaser",
       "comparison": "exact",
       "timeout": 10,
       "points": null
