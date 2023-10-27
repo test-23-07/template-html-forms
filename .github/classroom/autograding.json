@@ -33,7 +33,7 @@
     {
       "name": "valid html5",
       "setup": "sudo apt-get install tidy > /dev/null",
-      "run": "sudo apt-get install tidy",
+      "run": "tidy -e index.html",
       "input": "",
       "output": "",
       "comparison": "exact",
