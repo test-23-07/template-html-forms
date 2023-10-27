@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "search index.html",
+      "setup": "",
+      "run": "[ -e \"index.html\" ] && exit 0 || exit 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "not empty file",
+      "setup": "",
+      "run": "[ -s \"index.html\" ] && exit 0 || exit 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "file type html",
+      "setup": "",
+      "run": "[ -s \"index.html\" ] && file -b --mime-type \"index.html\" | grep -q \"text/html\" && exit 0 || exit 1",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "valid html5",
+      "setup": "sudo apt-get install tidy",
+      "run": "sudo apt-get install tidy",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "titled StarChased",
+      "setup": "sudo apt-get install libxml2-utils",
+      "run": "xmllint --html --xpath \"//title/text()\" index.html",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
