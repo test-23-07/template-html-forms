@@ -3,7 +3,7 @@
     {
       "name": "search index.html file",
       "setup": "",
-      "run": "[ -e \\\"index.html\\\" ] && exit 0 || exit 1\"",
+      "run": "[ -e \"index.html\" ] && exit 0 || exit 1",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -13,7 +13,7 @@
     {
       "name": "check if index.html is empty",
       "setup": "",
-      "run": "[ -s \\\"index.html\\\" ] && exit 0 || exit 1",
+      "run": "[ -s \"index.html\" ] && exit 0 || exit 1",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -23,7 +23,7 @@
     {
       "name": "check if file type of index.html is text/html",
       "setup": "",
-      "run": "[ -s \\\"index.html\\\" ] && file -b --mime-type \\\"index.html\\\" | grep -q \\\"text/html\\\" && exit 0 || exit 1",
+      "run": "[ -s \"index.html\" ] && file -b --mime-type \"index.html\" | grep -q \"text/html\" && exit 0 || exit 1",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -43,7 +43,7 @@
     {
       "name": "index.html must be titled StarChaser",
       "setup": "sudo apt-get install libxml2-utils >/dev/null",
-      "run": "xmllint --html --xpath \\\"//title/text()\\\" index.html",
+      "run": "xmllint --html --xpath \"//title/text()\" index.html",
       "input": "",
       "output": "StarChaser",
       "comparison": "exact",
