@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 5
     },
     {
       "name": "not empty file",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 5
     },
     {
       "name": "file type html",
@@ -28,7 +28,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 20
     },
     {
       "name": "valid html5",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": null
+      "points": 20
     },
     {
       "name": "titled StarChaser",
@@ -47,7 +47,7 @@
       "input": "",
       "output": "StarChaser",
       "comparison": "exact",
-      "timeout": 10,
+      "timeout": 50,
       "points": null
     }
   ]
