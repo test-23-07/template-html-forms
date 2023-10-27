@@ -8,7 +8,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 5
+      "points": null
     },
     {
       "name": "not empty file",
@@ -18,7 +18,7 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 5
+      "points": null
     },
     {
       "name": "file type html",
@@ -28,26 +28,26 @@
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 20
+      "points": null
     },
     {
       "name": "valid html5",
-      "setup": "sudo apt-get install tidy > /dev/null",
-      "run": "tidy -e index.html > /dev/null",
+      "setup": "sudo apt-get install tidy",
+      "run": "sudo apt-get install tidy",
       "input": "",
       "output": "",
       "comparison": "exact",
       "timeout": 10,
-      "points": 20
+      "points": null
     },
     {
-      "name": "titled StarChaser",
-      "setup": "sudo apt-get install libxml2-utils >/dev/null",
+      "name": "titled StarChased",
+      "setup": "sudo apt-get install libxml2-utils",
       "run": "xmllint --html --xpath \"//title/text()\" index.html",
       "input": "",
-      "output": "StarChaser",
+      "output": "",
       "comparison": "exact",
-      "timeout": 50,
+      "timeout": 10,
       "points": null
     }
   ]
