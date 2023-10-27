@@ -32,7 +32,7 @@
     },
     {
       "name": "valid html5",
-      "setup": "sudo apt-get install tidy",
+      "setup": "sudo apt-get install tidy > /dev/null",
       "run": "sudo apt-get install tidy",
       "input": "",
       "output": "",
@@ -42,7 +42,7 @@
     },
     {
       "name": "titled StarChaser",
-      "setup": "sudo apt-get install libxml2-utils",
+      "setup": "sudo apt-get install libxml2-utils >/dev/null",
       "run": "xmllint --html --xpath \"//title/text()\" index.html",
       "input": "",
       "output": "StarChaser",
