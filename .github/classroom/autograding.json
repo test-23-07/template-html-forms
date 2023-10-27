@@ -1,54 +1,54 @@
 {
   "tests": [
     {
-      "name": "search index.html",
+      "name": "search index.html file",
       "setup": "",
-      "run": "[ -e \"index.html\" ] && exit 0 || exit 1",
+      "run": "[ -e \\\"index.html\\\" ] && exit 0 || exit 1\"",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 10,
-      "points": null
+      "timeout": 1,
+      "points": 5
     },
     {
-      "name": "not empty file",
+      "name": "check if index.html is empty",
       "setup": "",
-      "run": "[ -s \"index.html\" ] && exit 0 || exit 1",
+      "run": "[ -s \\\"index.html\\\" ] && exit 0 || exit 1",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 10,
-      "points": null
+      "timeout": 1,
+      "points": 5
     },
     {
-      "name": "file type html",
+      "name": "check if file type of index.html is text/html",
       "setup": "",
-      "run": "[ -s \"index.html\" ] && file -b --mime-type \"index.html\" | grep -q \"text/html\" && exit 0 || exit 1",
+      "run": "[ -s \\\"index.html\\\" ] && file -b --mime-type \\\"index.html\\\" | grep -q \\\"text/html\\\" && exit 0 || exit 1",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 10,
-      "points": null
+      "timeout": 1,
+      "points": 20
     },
     {
-      "name": "valid html5",
-      "setup": "sudo apt-get install tidy",
-      "run": "sudo apt-get install tidy",
+      "name": "index.html must be valid html5",
+      "setup": "sudo apt-get install tidy > /dev/null",
+      "run": "tidy -e index.html > /dev/null",
       "input": "",
       "output": "",
       "comparison": "exact",
-      "timeout": 10,
-      "points": null
+      "timeout": 2,
+      "points": 30
     },
     {
-      "name": "titled StarChased",
-      "setup": "sudo apt-get install libxml2-utils",
-      "run": "xmllint --html --xpath \"//title/text()\" index.html",
+      "name": "index.html must be titled StarChaser",
+      "setup": "sudo apt-get install libxml2-utils >/dev/null",
+      "run": "xmllint --html --xpath \\\"//title/text()\\\" index.html",
       "input": "",
-      "output": "",
+      "output": "StarChaser",
       "comparison": "exact",
-      "timeout": 10,
-      "points": null
+      "timeout": 2,
+      "points": 30
     }
   ]
 }
