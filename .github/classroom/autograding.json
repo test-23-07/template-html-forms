@@ -2,6 +2,7 @@
   "tests": [
     {
       "name": "search index.html file",
+      "feedback":"Du benötigst eine Datei namens index.html",
       "setup": "",
       "run": "[ -e \"index.html\" ] && exit 0 || exit 1",
       "input": "",
@@ -12,6 +13,7 @@
     },
     {
       "name": "check if index.html is empty",
+      "feedback":"die index.html Datei darf nicht leer sein",
       "setup": "",
       "run": "[ -s \"index.html\" ] && exit 0 || exit 1",
       "input": "",
@@ -22,6 +24,7 @@
     },
     {
       "name": "check if file type of index.html is text/html",
+      "feedback":"index.html muss vom Dateityp text/html sein",
       "setup": "",
       "run": "[ -s \"index.html\" ] && file -b --mime-type \"index.html\" | grep -q \"text/html\" && exit 0 || exit 1",
       "input": "",
@@ -32,6 +35,7 @@
     },
     {
       "name": "index.html must be valid html5",
+      "feedback":"Der Inhalt der Datei muss gültiges HTML5 sein",
       "setup": "sudo apt-get install tidy > /dev/null",
       "run": "tidy -e index.html > /dev/null",
       "input": "",
@@ -42,6 +46,7 @@
     },
     {
       "name": "index.html must be titled StarChaser",
+      "feedback":"Die Seite muss den entsprechenden Titel setzen",
       "setup": "sudo apt-get install libxml2-utils >/dev/null",
       "run": "xmllint --html --xpath \"//title/text()\" index.html",
       "input": "",
@@ -49,6 +54,19 @@
       "comparison": "exact",
       "timeout": 2,
       "points": 30
-    }
+    }/*,
+    
+    {
+      "name": "index.html checking headers",
+      "setup": "sudo npm install pupeteer >/dev/null",
+      "type":"pupeteer",
+      "javascript": "document.querySelectorAll('header a').length",
+      "input": "index.html",
+      "output": "3",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 30
+    }*/
+ 
   ]
 }

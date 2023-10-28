@@ -16,4 +16,7 @@ jobs:
     if: github.actor != 'github-classroom[bot]'
     steps:
       - uses: actions/checkout@v4
-      - uses: education/autograding@v1
+        # - uses: education/autograding@v1
+      - uses: GittyBitch/autograding.git@test
+
+
