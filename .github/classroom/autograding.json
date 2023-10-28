@@ -54,19 +54,6 @@
       "comparison": "exact",
       "timeout": 2,
       "points": 30
-    }/*,
-    
-    {
-      "name": "index.html checking headers",
-      "setup": "sudo npm install pupeteer >/dev/null",
-      "type":"pupeteer",
-      "javascript": "document.querySelectorAll('header a').length",
-      "input": "index.html",
-      "output": "3",
-      "comparison": "exact",
-      "timeout": 2,
-      "points": 30
-    }*/
- 
+    }
   ]
 }
