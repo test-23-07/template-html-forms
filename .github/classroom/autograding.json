@@ -37,7 +37,7 @@
       "name": "index.html must be valid html5",
       "feedback":"Der Inhalt der Datei muss gültiges HTML5 sein",
       "setup": "sudo apt-get install tidy > /dev/null",
-      "run": "tidy -e index.html 2&>1 /dev/null",
+      "run": "tidy -e index.html 2>&1 /dev/null",
       "input": "",
       "output": "",
       "comparison": "exact",
@@ -58,7 +58,7 @@
     {
       "name": "index.html must contain a header with links",
       "feedback":"Die HTML-Seite muss einen <header> haben mit 3 entsprechenden links",
-      "setup": "npm install puppeteer 2%>1 /dev/null",
+      "setup": "npm install puppeteer 2>&1 /dev/null",
       "javascript": "document.querySelectorAll('header a').length",
       "input": "",
       "output": "3",
