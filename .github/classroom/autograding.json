@@ -58,7 +58,7 @@
     {
       "name": "index.html must contain a header with links",
       "feedback":"Die HTML-Seite muss einen <header> haben mit 3 entsprechenden links",
-      "setup": "npm install puppeteer > /dev/null",
+      "setup": "npm install puppeteer 2%>1 /dev/null",
       "javascript": "document.querySelectorAll('header a').length",
       "input": "",
       "output": "3",
