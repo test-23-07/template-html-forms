@@ -54,6 +54,20 @@
       "comparison": "exact",
       "timeout": 2,
       "points": 30
+    },
+    {
+      "name": "index.html must contain a header with links",
+      "feedback":"Die Seite muss einen <header> haben mit 3 entsprechenden links",
+      "setup": "npm install puppeeteer",
+      "javascript": "document.querySelectorAll('header a').length",
+      "input": "",
+      "output": "3",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 30
     }
+
+
+
   ]
 }
