@@ -1,7 +1,9 @@
-{
+{ "introduction": "",
+
   "tests": [
      {
-      "name": "HTML file must contain a form tag",
+      "specs": {"title":"HTML Formular erstellen", "Aufgaben":["A","B","C"]},
+      "name": "1 HTML file must contain a form tag",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
       "file": "form.html",
       "javascript": "document.querySelectorAll('form').length >= 1",
@@ -10,6 +12,7 @@
       "points": 10
     },
     {
+      "specs": {"title":"Methode des Formulars setzen", "Aufgaben":["A","B","C"]},
       "name": "Form must have a method attribute",
       "feedback": "Your form is missing the 'method' attribute. It is necessary to specify how to send form data.",
       "file": "form.html",
@@ -19,6 +22,7 @@
       "points": 10
     },
 {
+  "specs": {"title":"Get Methode verwenden", "Aufgaben":["A","B","C"]},
   "name": "Form method must be GET",
   "feedback": "Your form's method must be set to 'GET'.",
   "file": "form.html",
@@ -29,6 +33,7 @@
 },
 
     {
+      "specs": {"title":"HTML Formular mit Action erstellen", "Aufgaben":["A","B","C"]},
       "name": "Form must have an action attribute",
       "feedback": "Your form is missing the 'action' attribute. The form needs an action attribute to specify where to send the form data.",
       "file": "form.html",
@@ -38,6 +43,7 @@
       "points": 10
     },
 {
+  "specs": {"title":"HTML Formular und Action auf /contacts", "Aufgaben":["A","B","C"]},
   "name": "Form action must point to '/contact'",
   "feedback": "Your form's action must be set to 'contact'.",
   "file": "form.html",
