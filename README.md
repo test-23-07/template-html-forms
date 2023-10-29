@@ -1,8 +1,16 @@
 Aufgabe:
 
-- erzeuge eine index.html Datei
+- erzeuge eine form.html Datei
 - im HTML5 Format
 - die korrekt/gültig ist (valid)
-- und den Titel StarChaser trägt
-- mit einem header Bereich der 3 Links hat
+- mit einem Formular im body
+- method auf GET setzen
+- action auf /contact
+- mit Elementen für submit/reset und einem eMail Feld
+- alles innerhalb eines fieldset namens Newsletter
+- alle Elemente gelabelt
+
+Ihr habt 45 Minuten Zeit
+
+Viel Glück !
 

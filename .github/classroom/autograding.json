@@ -1,71 +1,97 @@
 {
   "tests": [
-    {
-      "name": "search index.html file",
-      "feedback":"Du benötigst eine Datei namens index.html",
-      "setup": "",
-      "run": "[ -e \"index.html\" ] && exit 0 || exit 1",
-      "input": "",
-      "output": "",
+     {
+      "name": "HTML file must contain a form tag",
+      "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
+      "file": "form.html",
+      "javascript": "document.querySelectorAll('form').length >= 1",
+      "output": "true",
       "comparison": "exact",
-      "timeout": 1,
-      "points": 5
+      "points": 10
     },
     {
-      "name": "check if index.html is empty",
-      "feedback":"die index.html Datei darf nicht leer sein",
-      "setup": "",
-      "run": "[ -s \"index.html\" ] && exit 0 || exit 1",
-      "input": "",
-      "output": "",
+      "name": "Form must have a method attribute",
+      "feedback": "Your form is missing the 'method' attribute. It is necessary to specify how to send form data.",
+      "file": "form.html",
+      "javascript": "document.querySelector('form').hasAttribute('method')",
+      "output": "true",
       "comparison": "exact",
-      "timeout": 1,
-      "points": 5
+      "points": 10
+    },
+{
+  "name": "Form method must be GET",
+  "feedback": "Your form's method must be set to 'GET'.",
+  "file": "form.html",
+  "javascript": "document.querySelector('form').getAttribute('method').toUpperCase() === 'GET'",
+  "output": "true",
+  "comparison": "exact",
+  "points": 10
+},
+
+    {
+      "name": "Form must have an action attribute",
+      "feedback": "Your form is missing the 'action' attribute. The form needs an action attribute to specify where to send the form data.",
+      "file": "form.html",
+      "javascript": "document.querySelector('form').hasAttribute('action')",
+      "output": "true",
+      "comparison": "exact",
+      "points": 10
+    },
+{
+  "name": "Form action must point to '/contact'",
+  "feedback": "Your form's action must be set to 'contact'.",
+  "file": "form.html",
+  "javascript": "document.querySelector('form').getAttribute('action') === '/contact'",
+  "output": "true",
+  "comparison": "exact",
+  "points": 10
+},
+{
+  "name": "Fieldset with a legend 'Newsletter' must be present",
+  "feedback": "Your form must include a fieldset with a legend labeled 'Newsletter'.",
+  "file": "form.html",
+  "javascript": "(function() { var fieldset = document.querySelector('fieldset'); var legend = fieldset ? fieldset.querySelector('legend') : null; return legend && legend.textContent === 'Newsletter'; })()",
+  "output": "true",
+  "comparison": "exact",
+  "points": 15
+},
+    {
+      "name": "Form must contain an input field for email",
+      "feedback": "Your form does not have an input field for email. Please include an input with type 'email'.",
+      "file": "form.html",
+      "javascript": "document.querySelectorAll('input[type=email]').length >= 1",
+      "output": "true",
+      "comparison": "exact",
+      "points": 10
     },
     {
-      "name": "check if file type of index.html is text/html",
-      "feedback":"index.html muss vom Dateityp text/html sein",
-      "setup": "",
-      "run": "[ -s \"index.html\" ] && file -b --mime-type \"index.html\" | grep -q \"text/html\" && exit 0 || exit 1",
-      "input": "",
-      "output": "",
+      "name": "Form must contain a submit button",
+      "feedback": "Your form does not have a submit button. Please include an input with type 'submit' or a button with type 'submit'.",
+      "file": "form.html",
+      "javascript": "document.querySelectorAll('input[type=submit], button[type=submit]').length >= 1",
+      "output": "true",
       "comparison": "exact",
-      "timeout": 1,
-      "points": 20
+      "points": 10
     },
     {
-      "name": "index.html must be valid html5",
-      "feedback":"Der Inhalt der Datei muss gültiges HTML5 sein",
-      "setup": "sudo apt-get install tidy > /dev/null",
-      "run": "tidy -e index.html 2>&1 /dev/null",
-      "input": "",
-      "output": "",
+      "name": "Form must contain a reset button",
+      "feedback": "Your form does not have a reset button. Please include an input with type 'reset' or a button with type 'reset'.",
+      "file": "form.html",
+      "javascript": "document.querySelectorAll('input[type=reset], button[type=reset]').length >= 1",
+      "output": "true",
       "comparison": "exact",
-      "timeout": 2,
-      "points": 30
+      "points": 10
     },
-    {
-      "name": "index.html must be titled StarChaser",
-      "feedback":"Die Seite muss den entsprechenden Titel setzen",
-      "setup": "sudo apt-get install libxml2-utils >/dev/null",
-      "run": "xmllint --html --xpath \"//title/text()\" index.html",
-      "input": "",
-      "output": "StarChaser",
-      "comparison": "exact",
-      "timeout": 2,
-      "points": 30
-    },
-    {
-      "name": "index.html must contain a header with links",
-      "feedback":"Die HTML-Seite muss einen <header> haben mit 3 entsprechenden links",
-      "setup": "npm install puppeteer 2>&1 /dev/null",
-      "javascript": "document.querySelectorAll('header a').length",
-      "input": "",
-      "output": "3",
-      "comparison": "exact",
-      "timeout": 2,
-      "points": 30
-    }
+{
+  "name": "All form input elements must have an ID and associated label",
+  "feedback": "Each input in your form needs an 'id' and a corresponding label with a 'for' attribute.",
+  "file": "form.html",
+  "javascript": "(function() { return Array.from(document.querySelectorAll('form input')).every(input => input.id && document.querySelector(`label[for='${input.id}']`)); })();",
+  "output": "true",
+  "comparison": "exact",
+  "points": 20
+}
+
 
 
 
