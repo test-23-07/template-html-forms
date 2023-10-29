@@ -2,7 +2,7 @@
 
   "tests": [
      {
-      "specs": {"title":"HTML Formular erstlen", "Aufgaben":["A","B","C"]},
+      "specs": {"title":"1 HTML Formular erstlen", "Aufgaben":["A","B","C"]},
       "name": "1 HTML file must contain a form tag",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
       "file": "form.html",
