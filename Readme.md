@@ -1,54 +1,59 @@
 ![Schreibe ein Kontaktformular.](https://techstarter.de/wp-content/uploads/2022/04/AWS_Restart_Logo_RGB.png)
-# Einleitung
+## Einleitung
 Schreibe ein Kontaktformular.
 maximale Punktzahl: 100
 
-## Erstelle ein HTML-Dokument mit einem Formular (10 Punkte)
-# HTML Formular erstellen
+# HTML Formular erstellen (10 Punkte)
+## Erstelle ein HTML-Dokument mit einem Formular
 
-# Code-Beispiel
-`<form></form>`
-# Spickzettel
+### `<form></form>`
 ### [Spickzettel](https://www.w3schools.com/html/html_forms.asp) 
 
-## Füge eine Methode im Formular hinzu (10 Punkte)
-# Code-Beispiel
-`<form method="post||get">`
-# Spickzettel
+# Methode des Formulars setzen (10 Punkte)
+## Füge eine Methode im Formular hinzu
+
+### `<form method="post||get">`
 ### [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-## Verwende die Methode Get (5 Punkte)
-# Spickzettel
+# Get Methode verwenden (5 Punkte)
+## Verwende die Methode Get
+
 ### [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-## Das HTML Formular soll eine Action haben (5 Punkte)
-# Spickzettel
+# HTML Formular mit Action erstellen (5 Punkte)
+## Das HTML Formular soll eine Action haben
+
 ### [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-## Setze das HTML Formular und die Action auf '/contact' (10 Punkte)
-# Spickzettel
+# HTML Formular und Action auf /contacts (10 Punkte)
+## Setze das HTML Formular und die Action auf '/contact'
+
 ### [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-## Erstelle ein Fieldset mit dem Namen Newsletter (10 Punkte)
-# Code-Beispiel
-`<fieldset></fieldset>`
-# Spickzettel
+# Fieldset mit dem Namen Legende erstellen (10 Punkte)
+## Erstelle ein Fieldset mit dem Namen Newsletter
+
+### `<fieldset></fieldset>`
 ### [Spickzettel](https://www.w3schools.com/tags/tag_fieldset.asp) 
 
-## Erstelle ein natives E-Mail-Eingabefeld (10 Punkte)
-# Spickzettel
+# E-Mail-Adresse (10 Punkte)
+## Erstelle ein natives E-Mail-Eingabefeld
+
 ### [Spickzettel](https://www.w3schools.com/tags/tag_input.asp) 
 
-## Erstelle einen Submit-Button (10 Punkte)
-# Spickzettel
+# Submit-Button (10 Punkte)
+## Erstelle einen Submit-Button
+
 ### [Spickzettel](https://www.w3schools.com/tags/att_input_type_submit.asp) 
 
-## Erstelle einen Reset-Button für das Formular (10 Punkte)
-# Spickzettel
+# Reset-Button (10 Punkte)
+## Erstelle einen Reset-Button für das Formular
+
 ### [Spickzettel](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_reset) 
 
-## Alle Eingabefelder sollen ein zugehöriges Label haben (20 Punkte)
-# Spickzettel
+# IDs und zugehörige Label (20 Punkte)
+## Alle Eingabefelder sollen ein zugehöriges Label haben
+
 ### [Spickzettel](https://www.w3schools.com/html/html_id.asp) 
 ### [Spickzettel](https://www.w3schools.com/tags/tag_label.asp) 
 
