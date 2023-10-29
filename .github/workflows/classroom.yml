@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor != 'github-classroom[bot]'
     steps:
+      - name: Install puppeteer
+        run: |
+          npm install -g puppeteer
       - uses: actions/checkout@v4
       - uses: GittyBitch/autograding@feature/feedback
 
