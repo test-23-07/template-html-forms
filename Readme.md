@@ -1,7 +1,8 @@
 ![Schreibe ein Kontaktformular.](https://techstarter.de/wp-content/uploads/2022/04/AWS_Restart_Logo_RGB.png)
-## Einleitung
+# Einführung
 Schreibe ein Kontaktformular.
 maximale Punktzahl: 100
+Zeitfenster: 45 Minuten
 
 # HTML Formular erstellen (10 Punkte)
 ## Erstelle ein HTML-Dokument mit einem Formular
