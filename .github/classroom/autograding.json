@@ -5,6 +5,7 @@
       "specs": {"title":"1 HTML Formular erstlen", "list":["a","bb","c"], "code_example":"<form></form>"},
       "name": "1 HTML file must contain a form tag",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
+      "urls": ["google.com", "wikipedia.com"],
       "file": "form.html",
       "javascript": "document.querySelectorAll('form').length >= 1",
       "output": "true",
