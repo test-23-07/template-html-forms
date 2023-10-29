@@ -1,7 +1,7 @@
 {
   "tests": [
      {
-      "name": "1 HTML file must contain a form tag",
+      "name": "HTML file must contain a form tag",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
       "file": "form.html",
       "javascript": "document.querySelectorAll('form').length >= 1",
