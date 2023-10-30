@@ -1,4 +1,5 @@
-<img src="https://www.kleverkinos.de/images/news/82804_1_big.jpg" alt="Formular zur Anmeldung für einen Newsletter" width="300"/>
+<img src="https://www.kleverkinos.de/images/news/82804_1_big.jpg" alt="Formular zur Anmeldung für einen Newsletter" width="300"/
+>
 ---
 # Aufgabe
 Formular zur Anmeldung für einen Newsletter
@@ -6,7 +7,7 @@ Formular zur Anmeldung für einen Newsletter
 * 45 Minuten
 
 ---
-### 1. HTML Formular erstellen (10 Punkte)
+### HTML Formular erstellen (10 Punkte)
 #### Erstelle ein HTML-Dokument mit einem Formular.
 
 ###### Code-Beispiel:
@@ -16,7 +17,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 2. Methode des Formulars setzen (10 Punkte)
+### Methode des Formulars setzen (10 Punkte)
 #### Füge eine Methode im Formular hinzu
 
 ###### Code-Beispiel:
@@ -26,7 +27,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 3. Get Methode verwenden (5 Punkte)
+### Get Methode verwenden (5 Punkte)
 #### Verwende die Methode Get
 
 ###### Hilfe
@@ -34,7 +35,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 4. HTML Formular mit Action erstellen (5 Punkte)
+### HTML Formular mit Action erstellen (5 Punkte)
 #### Das HTML Formular soll eine Action haben
 
 ###### Hilfe
@@ -42,7 +43,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 5. HTML Formular und Action auf /contacts (10 Punkte)
+### HTML Formular und Action auf /contacts (10 Punkte)
 #### Setze das HTML Formular und die Action auf '/contact'
 
 ###### Hilfe
@@ -50,7 +51,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 6. Fieldset mit dem Namen Legende erstellen (10 Punkte)
+### Fieldset mit dem Namen Legende erstellen (10 Punkte)
 #### Erstelle ein Fieldset mit dem Namen Newsletter
 
 ###### Code-Beispiel:
@@ -60,7 +61,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 7. E-Mail-Adresse (10 Punkte)
+### E-Mail-Adresse (10 Punkte)
 #### Erstelle ein natives E-Mail-Eingabefeld
 
 ###### Hilfe
@@ -68,7 +69,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 8. Submit-Button (10 Punkte)
+### Submit-Button (10 Punkte)
 #### Erstelle einen Submit-Button
 
 ###### Hilfe
@@ -76,7 +77,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 9. Reset-Button (10 Punkte)
+### Reset-Button (10 Punkte)
 #### Erstelle einen Reset-Button für das Formular
 
 ###### Hilfe
@@ -84,7 +85,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### 10. IDs und zugehörige Label. (20 Punkte)
+### IDs und zugehörige Label (20 Punkte)
 #### Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
 
 ###### Hilfe
