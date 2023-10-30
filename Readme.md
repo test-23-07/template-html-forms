@@ -1,4 +1,4 @@
-![Formular zur Anmeldung für einen Newsletter](https://techstarter.de/wp-content/uploads/2022/04/AWS_Restart_Logo_RGB.png)
+![Formular zur Anmeldung für einen Newsletter](https://www.kleverkinos.de/images/news/82804_1_big.jpg)
 ---
 # Aufgabe
 Formular zur Anmeldung für einen Newsletter
