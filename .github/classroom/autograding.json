@@ -5,7 +5,7 @@
   "tests": [
      {
       "specs": {"title":"HTML Formular erstellen", "list":[], "code_example":"<form></form>"},
-      "name": "Erstelle ein HTML-Dokument mit einem Formular",
+      "name": "Erstelle ein HTML-Dokument mit einem Formular.",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
       "urls": ["https://www.w3schools.com/html/html_forms.asp"],
       "file": "form.html",
