@@ -104,7 +104,7 @@
       "points": 10
     },
     { 
-      "specs": {"title": "IDs und zugehörige Label "},
+      "specs": {"title": "IDs und zugehörige Label"},
       "name": "Alle Eingabefelder und Button sollen ein zugehöriges Label haben.",
       "feedback": "Each input in your form needs an 'id' and a corresponding label with a 'for' attribute.",
       "urls": ["https://www.w3schools.com/html/html_id.asp", "https://www.w3schools.com/tags/tag_label.asp"],

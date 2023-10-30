@@ -1,5 +1,5 @@
-<img src="https://www.kleverkinos.de/images/news/82804_1_big.jpg" alt="Formular zur Anmeldung für einen Newsletter" width="300"/
->
+<img src="https://www.kleverkinos.de/images/news/82804_1_big.jpg" alt="Formular zur Anmeldung für einen Newsletter" width="300"/>
+
 ---
 # Aufgabe
 Formular zur Anmeldung für einen Newsletter
@@ -85,7 +85,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### IDs und zugehörige Label  (20 Punkte)
+### IDs und zugehörige Label (20 Punkte)
 #### Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
 
 ###### Hilfe
