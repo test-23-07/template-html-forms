@@ -6,70 +6,70 @@ maximale Punktzahl: 100
 
 Zeitfenster: 45 Minuten
 
-# HTML Formular erstellen (10 Punkte)
-## Erstelle ein HTML-Dokument mit einem Formular
+### HTML Formular erstellen (10 Punkte)
+#### Erstelle ein HTML-Dokument mit einem Formular
 
-#### Code-Beispiel:
+###### Code-Beispiel:
 * `<form></form>`
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/html/html_forms.asp) 
 
-# Methode des Formulars setzen (10 Punkte)
-## Füge eine Methode im Formular hinzu
+### Methode des Formulars setzen (10 Punkte)
+#### Füge eine Methode im Formular hinzu
 
-#### Code-Beispiel:
+###### Code-Beispiel:
 * `<form method="post||get">`
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-# Get Methode verwenden (5 Punkte)
-## Verwende die Methode Get
+### Get Methode verwenden (5 Punkte)
+#### Verwende die Methode Get
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-# HTML Formular mit Action erstellen (5 Punkte)
-## Das HTML Formular soll eine Action haben
+### HTML Formular mit Action erstellen (5 Punkte)
+#### Das HTML Formular soll eine Action haben
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-# HTML Formular und Action auf /contacts (10 Punkte)
-## Setze das HTML Formular und die Action auf '/contact'
+### HTML Formular und Action auf /contacts (10 Punkte)
+#### Setze das HTML Formular und die Action auf '/contact'
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/att_form_method.asp) 
 
-# Fieldset mit dem Namen Legende erstellen (10 Punkte)
-## Erstelle ein Fieldset mit dem Namen Newsletter
+### Fieldset mit dem Namen Legende erstellen (10 Punkte)
+#### Erstelle ein Fieldset mit dem Namen Newsletter
 
-#### Code-Beispiel:
+###### Code-Beispiel:
 * `<fieldset></fieldset>`
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/tag_fieldset.asp) 
 
-# E-Mail-Adresse (10 Punkte)
-## Erstelle ein natives E-Mail-Eingabefeld
+### E-Mail-Adresse (10 Punkte)
+#### Erstelle ein natives E-Mail-Eingabefeld
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/tag_input.asp) 
 
-# Submit-Button (10 Punkte)
-## Erstelle einen Submit-Button
+### Submit-Button (10 Punkte)
+#### Erstelle einen Submit-Button
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/att_input_type_submit.asp) 
 
-# Reset-Button (10 Punkte)
-## Erstelle einen Reset-Button für das Formular
+### Reset-Button (10 Punkte)
+#### Erstelle einen Reset-Button für das Formular
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_reset) 
 
-# IDs und zugehörige Label (20 Punkte)
-## Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
+### IDs und zugehörige Label (20 Punkte)
+#### Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
 
-##### Hilfe
+###### Hilfe
 * [Spickzettel](https://www.w3schools.com/html/html_id.asp) 
 * [Spickzettel](https://www.w3schools.com/tags/tag_label.asp) 
 
