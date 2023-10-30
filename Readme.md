@@ -86,7 +86,7 @@ Formular zur Anmeldung für einen Newsletter
 
 ---
 ### IDs und zugehörige Label (20 Punkte)
-#### Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
+#### Alle Eingabefelder sollen ein zugehöriges Label haben.
 
 ###### Hilfe
 * [Spickzettel](https://www.w3schools.com/html/html_id.asp) 
