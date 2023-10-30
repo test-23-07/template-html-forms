@@ -1,4 +1,4 @@
-![Formular zur Anmeldung für einen Newsletter](https://www.kleverkinos.de/images/news/82804_1_big.jpg)
+<img src="https://www.kleverkinos.de/images/news/82804_1_big.jpg" alt="Formular zur Anmeldung für einen Newsletter" width="300"/>
 ---
 # Aufgabe
 Formular zur Anmeldung für einen Newsletter
