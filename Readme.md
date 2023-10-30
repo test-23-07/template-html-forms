@@ -6,7 +6,7 @@ Formular zur Anmeldung für einen Newsletter
 * 45 Minuten
 
 ---
-### HTML Formular erstellen (10 Punkte)
+### 1. HTML Formular erstellen (10 Punkte)
 #### Erstelle ein HTML-Dokument mit einem Formular.
 
 ###### Code-Beispiel:
@@ -16,7 +16,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### Methode des Formulars setzen (10 Punkte)
+### 2. Methode des Formulars setzen (10 Punkte)
 #### Füge eine Methode im Formular hinzu
 
 ###### Code-Beispiel:
@@ -26,7 +26,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### Get Methode verwenden (5 Punkte)
+### 3. Get Methode verwenden (5 Punkte)
 #### Verwende die Methode Get
 
 ###### Hilfe
@@ -34,7 +34,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### HTML Formular mit Action erstellen (5 Punkte)
+### 4. HTML Formular mit Action erstellen (5 Punkte)
 #### Das HTML Formular soll eine Action haben
 
 ###### Hilfe
@@ -42,7 +42,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### HTML Formular und Action auf /contacts (10 Punkte)
+### 5. HTML Formular und Action auf /contacts (10 Punkte)
 #### Setze das HTML Formular und die Action auf '/contact'
 
 ###### Hilfe
@@ -50,7 +50,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### Fieldset mit dem Namen Legende erstellen (10 Punkte)
+### 6. Fieldset mit dem Namen Legende erstellen (10 Punkte)
 #### Erstelle ein Fieldset mit dem Namen Newsletter
 
 ###### Code-Beispiel:
@@ -60,7 +60,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### E-Mail-Adresse (10 Punkte)
+### 7. E-Mail-Adresse (10 Punkte)
 #### Erstelle ein natives E-Mail-Eingabefeld
 
 ###### Hilfe
@@ -68,7 +68,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### Submit-Button (10 Punkte)
+### 8. Submit-Button (10 Punkte)
 #### Erstelle einen Submit-Button
 
 ###### Hilfe
@@ -76,7 +76,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### Reset-Button (10 Punkte)
+### 9. Reset-Button (10 Punkte)
 #### Erstelle einen Reset-Button für das Formular
 
 ###### Hilfe
@@ -84,7 +84,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### IDs und zugehörige Label (20 Punkte)
+### 10. IDs und zugehörige Label. (20 Punkte)
 #### Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
 
 ###### Hilfe
