@@ -85,7 +85,7 @@ Formular zur Anmeldung für einen Newsletter
 
 
 ---
-### IDs und zugehörige Label (20 Punkte)
+### IDs und zugehörige Label  (20 Punkte)
 #### Alle Eingabefelder und Button sollen ein zugehöriges Label haben.
 
 ###### Hilfe
