@@ -4,7 +4,7 @@
 
   "tests": [
      {
-      "specs": {"title":"HTML Formular erstellen", "list":[], "code_example":"<form></form>"},
+      "specs": {"title":"1. HTML Formular erstellen", "list":[], "code_example":"<form></form>"},
       "name": "Erstelle ein HTML-Dokument mit einem Formular.",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
       "urls": ["https://www.w3schools.com/html/html_forms.asp"],
@@ -15,7 +15,7 @@
       "points": 10
     },
     {
-      "specs": {"title":"Methode des Formulars setzen", "code_example": "<form method=\"post||get\">"},
+      "specs": {"title":"2. Methode des Formulars setzen", "code_example": "<form method=\"post||get\">"},
       "name": "Füge eine Methode im Formular hinzu",
       "feedback": "Your form is missing the 'method' attribute. It is necessary to specify how to send form data.",
       "urls": ["https://www.w3schools.com/tags/att_form_method.asp"],
@@ -26,7 +26,7 @@
       "points": 10
     },
     {
-      "specs": {"title":"Get Methode verwenden"},
+      "specs": {"title":"3. Get Methode verwenden"},
       "name": "Verwende die Methode Get",
       "feedback": "Your form's method must be set to 'GET'.",
       "urls": ["https://www.w3schools.com/tags/att_form_method.asp"],
@@ -38,7 +38,7 @@
     },
 
     {
-      "specs": {"title":"HTML Formular mit Action erstellen"},
+      "specs": {"title":"4. HTML Formular mit Action erstellen"},
       "name": "Das HTML Formular soll eine Action haben",
       "feedback": "Your form is missing the 'action' attribute. The form needs an action attribute to specify where to send the form data.",
       "urls": ["https://www.w3schools.com/tags/att_form_method.asp"],
@@ -49,7 +49,7 @@
       "points": 5
     },
     {
-      "specs": {"title":"HTML Formular und Action auf /contacts"},
+      "specs": {"title":"5. HTML Formular und Action auf /contacts"},
       "name": "Setze das HTML Formular und die Action auf '/contact'",
       "feedback": "Your form's action must be set to '/contact'.",
       "urls": ["https://www.w3schools.com/tags/att_form_method.asp"],
@@ -60,7 +60,7 @@
       "points": 10
     },
     {
-      "specs": {"title": "Fieldset mit dem Namen Legende erstellen", "code_example": "<fieldset></fieldset>"},
+      "specs": {"title": "6. Fieldset mit dem Namen Legende erstellen", "code_example": "<fieldset></fieldset>"},
       "name": "Erstelle ein Fieldset mit dem Namen Newsletter",
       "feedback": "Your form must include a fieldset with a legend labeled 'Newsletter'.",
       "urls": ["https://www.w3schools.com/tags/tag_fieldset.asp"],
@@ -71,7 +71,7 @@
       "points": 10
     },
     {
-      "specs": {"title": "E-Mail-Adresse"},	    
+      "specs": {"title": "7. E-Mail-Adresse"},	    
       "name": "Erstelle ein natives E-Mail-Eingabefeld",
       "feedback": "Your form does not have an input field for email. Please include an input with type 'email'.",
       "urls": ["https://www.w3schools.com/tags/tag_input.asp"],
@@ -82,7 +82,7 @@
       "points": 10
     },
     {
-      "specs": {"title": "Submit-Button"},
+      "specs": {"title": "8. Submit-Button"},
       "name": "Erstelle einen Submit-Button",
       "feedback": "Your form does not have a submit button. Please include an input with type 'submit' or a button with type 'submit'.",
       "urls": ["https://www.w3schools.com/tags/att_input_type_submit.asp"],
@@ -93,7 +93,7 @@
       "points": 10
     },
     {
-      "specs": {"title": "Reset-Button"},
+      "specs": {"title": "9. Reset-Button"},
       "name": "Erstelle einen Reset-Button für das Formular",
       "feedback": "Your form does not have a reset button. Please include an input with type 'reset' or a button with type 'reset'.",
       "urls": ["https://www.w3schools.com/html/tryit.asp?filename=tryhtml_input_reset"],
@@ -104,7 +104,7 @@
       "points": 10
     },
     { 
-      "specs": {"title": "IDs und zugehörige Label"},
+      "specs": {"title": "10. IDs und zugehörige Label"},
       "name": "Alle Eingabefelder und Button sollen ein zugehöriges Label haben.",
       "feedback": "Each input in your form needs an 'id' and a corresponding label with a 'for' attribute.",
       "urls": ["https://www.w3schools.com/html/html_id.asp", "https://www.w3schools.com/tags/tag_label.asp"],
