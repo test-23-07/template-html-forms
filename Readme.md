@@ -62,7 +62,7 @@ Formular zur Anmeldung für einen Newsletter
 
 ---
 ### E-Mail-Adresse (10 Punkte)
-#### Erstelle ein natives E-Mail-Eingabefeld
+#### Erstelle ein natives E-Mail-Eingabefeld mit einer ID mit dem Namen mail
 
 ###### Hilfe
 * [Spickzettel](https://www.w3schools.com/tags/tag_input.asp) 

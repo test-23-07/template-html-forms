@@ -72,7 +72,7 @@
     },
     {
       "specs": {"title": "E-Mail-Adresse"},	    
-      "name": "Erstelle ein natives E-Mail-Eingabefeld",
+      "name": "Erstelle ein natives E-Mail-Eingabefeld mit einer ID mit dem Namen mail",
       "feedback": "Your form does not have an input field for email. Please include an input with type 'email'.",
       "urls": ["https://www.w3schools.com/tags/tag_input.asp"],
       "file": "form.html",
